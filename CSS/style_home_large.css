@@ -1,0 +1,85 @@
+.logo{
+    padding: 5% 0 5% 0;
+}
+.logo img{
+    width: 30%;
+}
+.town{
+    padding: 2.5%;
+}
+.bg_header{
+    padding: 5% 0 5% 0;
+}
+.title_1{
+    align-items: flex-start;
+}
+.title_1 h2{
+    margin-bottom: 2%;
+    margin-left: 3% ;
+}
+.title_1 h3{
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 0 3%;
+}
+header h1{
+    font-size: 30px;
+    margin:5%;
+}
+.fonction{
+    justify-content: space-evenly;
+    margin: 0 ;
+}
+.fonction a{
+    width: 28%;
+    padding: 12px;  
+}
+.fonction p{
+    padding: 3% 6%;
+    margin-left: -2rem;
+    margin-right: 2rem;
+}
+.fonction span{
+    font-size: 18px;
+}
+.fonction i{
+    font-size: 32px;
+}
+.logo_shop i{
+    font-size: 29px;
+}
+.explore h1{
+    font-size: 22px;
+    width: 350px;
+}
+.title_2{
+    font-size: 30px;
+    margin: 5%;
+}
+.restorant{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.box_rest{
+    width: 45%; 
+    padding-bottom: 3%; 
+}
+.rest_text h6{
+    font-weight: 500;
+}
+.news{
+    width: 44%;
+    min-width: 415px;
+}
+footer {
+    padding: 2% 0 0 3%;
+}
+footer h1{
+    font-size: 35px;
+}
+footer li{
+    font-size: 23px;
+    margin-bottom: 1%;
+    }

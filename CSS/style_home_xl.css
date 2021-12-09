@@ -1,0 +1,50 @@
+.logo img{
+    width: 20%;
+}
+.logo{
+    padding: 4% 0 3% 0;
+}
+.town i{
+    font-size: 40px;
+}
+.text-form{
+    width: 100%;
+    font-size: 25px;
+}
+.title_1 h2{
+    font-size: 35px;
+}
+.title_1 h3{
+    font-size: 25px;
+}
+.fonction{
+    justify-content: center;
+    margin: 1.5rem;
+}
+.fonction a{
+    width: 28%;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.fonction p{
+    font-size: 25px;
+    padding: 3% 5%;
+    margin-left: -10%;
+}
+.fonction span{
+    font-size: 22px;
+}
+.box_rest{
+    width: 26%;
+    max-width: 420px;
+    padding-bottom: 1.5rem;
+}
+.news{
+    width: 21%;
+    min-width: 400px;
+    min-width: 310px;
+   
+}
+.news p{
+    font-size: 22px;
+}

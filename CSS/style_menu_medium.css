@@ -1,0 +1,50 @@
+.logo i{
+    font-size: 40px;
+}
+.logo{
+    padding-right: 23%;
+}
+.logo img{
+    width: 40%;
+}
+.baner{
+    height: 300px;
+}
+.baner img{
+    height: 350px;
+}
+.baner_portrait {
+    height: 300px;
+}
+.title_menu{
+    font-size: 30px;
+}
+.box_menu ul{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box_menu h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.block {
+    padding: 2% 2.5% 1.5% -1%;
+    margin: 2%;
+    width: 45%;
+}
+.text h3{
+    font-size: 20px;
+    white-space: normal;
+}
+.price h4{
+    font-size: 16px;
+}
+.price h5{
+    font-size: 16px;
+}
+.order span{
+    width: 280px;
+    height: 80px;
+}

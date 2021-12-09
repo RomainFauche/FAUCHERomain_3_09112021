@@ -1,0 +1,38 @@
+.explore h1{
+    width: 300px;
+    margin: 0;
+}
+header h1{
+    margin-left: 3%;
+}
+.fonction{
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fonction a{
+    margin-right: 1%;
+    width: 40%;
+}
+.fonction p{
+    padding: 5% 8%;
+    font-size: 18px;
+}
+.fonction span{
+    text-align: center;
+    margin-left: 20px,
+
+}
+.box_rest{
+    width: 85%;
+    max-width: 768px;
+}
+.restorant img{
+    width: 768px;
+}
+.news{
+    width: 78%;
+}
+.heart{
+    font-size: 35px;
+}

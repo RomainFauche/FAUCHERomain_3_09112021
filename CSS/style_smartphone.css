@@ -7,6 +7,7 @@
 }
 img{
     max-width: 100%;
+    
 }
 a{
     text-decoration: none;
@@ -26,9 +27,19 @@ a{
 .logo img{
     width: 50%;
 }
-.baner {
+.baner img{
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    height: 250px;
+}
+.baner{
+    height: 200px;
+}
+.baner_portrait{
     z-index: 1;
     height: 200px;
+    object-fit: cover;
 }
 .box_menu {
     position: relative;
@@ -43,6 +54,7 @@ a{
         flex-direction: column;
         justify-content: center;
         list-style-type: none;
+     
     }
 .title_menu{
     display: flex;
@@ -67,60 +79,74 @@ a{
     font-size: 16px;
     font-weight: 400;
     border-bottom: #99e2d0 solid;
-    width: 10%;
+    width: 5%;
     padding-bottom: 1%;
     margin-bottom: 3%;
     margin-top: 2%;
 }
-.box_menu li{
+.block{
     display: flex;
+    justify-content: space-between;
     border-radius: 20px;
     background: white;
     width: 95%;
-    padding: 15px;
+    padding: 1rem;
     margin-bottom: 3%;
-    box-shadow:  0px 0px 10px -3px rgba(0,0,0,0.32);
-}
-.box_menu li{
+    box-shadow:  0px 0px 10px -3px rgba(0,0,0,0.32); 
+    overflow: hidden;
+  }
+  .text{
+    display:flex;
     flex-direction: column;
-    justify-content: space-between;
-}
-.box_menu h3{
-    margin-bottom: 1%;
-}
-.box_menu h4{
-    font-size: 15px;
-    font-weight: 300;
-}
-.box_menu h5{
-    margin-right: 2%;
-}
-.price{
+    width: 95%;
+  }
+
+  .text h3{
+    font-size: 16px;
+    margin-bottom: 2%;
+  }
+  .text h3,h4{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .price{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-}
-.box_anim {
-    width: 85px;
+    margin: 0 1rem 0 0;  
+         
+  }
+  .price h4{
+    font-size: 15px;
+    font-weight: 400;
+  }
+h5{
+    display:flex; 
+    padding: 0 0 0 1rem;
+    transition: 1s;
+  }
+  .box_anim{
     display: flex;
     background-color: #99e2d0;
-    padding: 8%;
-}
-.box_anim i{
-    font-size: 25px;
-    padding: 10%;
-    display: flex;
-    align-items: center;
+    margin: -1rem -6rem -1rem 1rem; 
+    width: 5rem;
     justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    transition:  .9s;
+  }
+  .box_anim i{
+    display:flex;
+    justify-content: center;
+    font-size: 18px;
     color: #99e2d0;
     background: white;
+    padding: 0.7rem;
     border-radius: 100%;
-}
-.box_anim :hover{
-    transform: scale(1.15);
-   
-}
+    transform: rotate(0turn);
+    transition: 0.8s ease;
+  }
 .order{
     display: flex;
     justify-content: center;
@@ -169,4 +195,3 @@ footer li{
 footer i{
     margin-right: 10px ;
 }
-

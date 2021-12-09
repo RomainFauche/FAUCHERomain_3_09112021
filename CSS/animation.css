@@ -1,0 +1,54 @@
+@keyframes load{
+    100%{
+        opacity: 0;
+        z-index: -10;
+    }
+}
+@keyframes leap{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-0.25rem);
+    }
+    75%{
+        transform: translateY(0.25rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+@keyframes slide_focus {
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.block:hover .box_anim {
+    transform:translate(-100%);
+    
+}
+.block:hover i{
+    transform: rotate(360deg);
+}
+.block:hover h5{
+    transform: translateX(-2.3rem);
+    padding-left: 4rem;
+}
+
+.block{
+    animation: 0.7s linear slide_focus;
+}
+.block_1{
+    animation: 1s linear slide_focus;
+}
+.block_2{
+    animation: 1.3s linear slide_focus;
+}
+.block_3{
+    animation: 1.7S linear slide_focus
+}
