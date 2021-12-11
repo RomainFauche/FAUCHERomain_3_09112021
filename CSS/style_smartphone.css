@@ -6,8 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 img{
-    max-width: 100%;
-    
+    max-width: 100%;   
 }
 a{
     text-decoration: none;
@@ -54,7 +53,6 @@ a{
         flex-direction: column;
         justify-content: center;
         list-style-type: none;
-     
     }
 .title_menu{
     display: flex;

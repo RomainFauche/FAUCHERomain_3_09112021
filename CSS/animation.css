@@ -8,15 +8,15 @@
     0%{
         transform: translateY(0);
     }
-    25%{
-        transform: translateY(-0.25rem);
-    }
-    75%{
-        transform: translateY(0.25rem);
-    }
-    100%{
-        transform: translateY(0);
-    }
+        25%{
+            transform: translateY(-0.25rem);
+        }
+            75%{
+                transform: translateY(0.25rem);
+            }
+                100%{
+                    transform: translateY(0);
+                }
 }
 @keyframes slide_focus {
     from{
@@ -30,7 +30,6 @@
 }
 .block:hover .box_anim {
     transform:translate(-100%);
-    
 }
 .block:hover i{
     transform: rotate(360deg);
@@ -39,7 +38,6 @@
     transform: translateX(-2.3rem);
     padding-left: 4rem;
 }
-
 .block{
     animation: 0.7s linear slide_focus;
 }
