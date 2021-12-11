@@ -38,7 +38,7 @@
     transform: translateX(-2.3rem);
     padding-left: 4rem;
 }
-.block{
+.block_0{
     animation: 0.7s linear slide_focus;
 }
 .block_1{
