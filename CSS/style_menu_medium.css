@@ -44,7 +44,7 @@
 .price h5{
     font-size: 16px;
 }
-.order span{
+.order a{
     width: 280px;
     height: 80px;
 }
